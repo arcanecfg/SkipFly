@@ -1,0 +1,7 @@
+for(var q=0;q<ysmm.length;q++){
+  if(q%2==0){D+=ysmm.charAt(q);}
+  else{F=ysmm.charAt(q)+F;}
+}
+ysmm=D+F;
+ysmm=Base64.decode(ysmm);
+ysmm=ysmm.substring(2);
